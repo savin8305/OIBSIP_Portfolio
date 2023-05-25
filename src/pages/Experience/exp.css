@@ -1,0 +1,10 @@
+.experience-item {
+    transition: transform 0.7s ease-out;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .experience-item.active {
+    transform: translateY(-50%) rotateX(360deg);
+  }
+  
